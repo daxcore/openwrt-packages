@@ -323,7 +323,7 @@ $(eval $(call SaneBackend,epjitsu,Epson-based Fujitsu USB scanners,+libusb-1.0))
 $(eval $(call SaneBackend,epson,EPSON scanners,+libusb-1.0))
 $(eval $(call SaneBackend,epsonds,EPSON scanners,+libjpeg +libusb-1.0)) ####
 $(eval $(call SaneBackend,epson2,EPSON scanners,+libusb-1.0))
-#$(eval $(call SaneBackend,escl,AirScan/eSCL devices,+libcurl +libxml2 +libnetsnmp +libavahi))
+$(eval $(call SaneBackend,escl,AirScan/eSCL devices,+libcurl +libxml2 +libnetsnmp +libavahi))
 $(eval $(call SaneBackend,fujitsu,Fujitsu flatbed and ADF scanners,+libusb-1.0))
 $(eval $(call SaneBackend,genesys,GL646 GL841 GL843 GL847 and GL124 based USB flatbed scanners,+libstdcpp +libusb-1.0 +libtiff))
 $(eval $(call SaneBackend,gphoto2,digital cameras supported by gphoto2,+libjpeg +libgphoto2))
